@@ -1,5 +1,5 @@
 /**
- * Sanguinololu board pin assignments
+ * Sanguinololu board pin assignments  Changed By A.Lisi  Feb 2015
  */
 
 #if !defined(__AVR_ATmega644P__) && !defined(__AVR_ATmega1284P__)
@@ -22,8 +22,8 @@
 #define E0_DIR_PIN          0
 
 #define LED_PIN            -1
-
-#define FAN_PIN            -1
+/****** A.Lisi Changed *****  FAN_PIN from -1 to 4 */
+#define FAN_PIN            4
 
 // #if FAN_PIN == 12 || FAN_PIN ==13
 //   #define FAN_SOFT_PWM
